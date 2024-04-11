@@ -32,7 +32,6 @@
     margin-left: 200px;
     margin-right: 200px;
   }
-
   .card {
     background-color: #f4f1ff;
     border: 1px solid #8f85c4;
@@ -40,7 +39,6 @@
     padding: 15px;
     text-align: center;
   }
-  
   .card-body btn-primary {
     border: none;
     color: white;
@@ -49,4 +47,25 @@
     font-size: 16px;
     margin: 10px 0;
     cursor: pointer;
+  }
+
+  .container-perfil {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+  .form-container {
+    height: 520px;
+    width: 600px;
+    padding: 60px;
+    background-color: #f4f1ff;
+    border: 1px solid #8f85c4;
+  }
+  .form-title {
+    margin-bottom: 65px;
+    text-align: center;
+    font-size: 45px;
+  }
+  .form-group {
+    margin-bottom: 50px;
   }
