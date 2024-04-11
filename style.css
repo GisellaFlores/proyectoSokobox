@@ -65,9 +65,15 @@
     margin-bottom: 65px;
     text-align: center;
     font-size: 45px;
+    font-weight: bolder;
+    
   }
   .form-group {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+
+  }
+  .form-group p{
+    color: #ff69b4;
   }
   .modal-button {
     margin-top: 20px;
