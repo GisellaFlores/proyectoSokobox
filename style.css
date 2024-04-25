@@ -27,10 +27,9 @@
     padding-top: 20px;
   }
 
+/* CARDS */
   .container-section2 {
-    margin-top: 60px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 60px 180px;
   }
   .card {
     background-color: #f4f1ff;
@@ -49,11 +48,10 @@
     cursor: pointer;
   }
 
-  .container-perfil {
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-  }
+/* INICIO SESIÓN */
+.container-perfil{
+  margin-top: 60px;
+}
   .form-container {
     height: 520px;
     width: 600px;
@@ -66,7 +64,6 @@
     text-align: center;
     font-size: 45px;
     font-weight: bolder;
-    
   }
   .form-group {
     margin-bottom: 20px;
@@ -82,14 +79,30 @@
   .container-section3{
     margin-left: 50px;
   }
-  .container-bottonComprar{
-    margin-bottom: 20px;
-    margin-right: 20px;
-     
-  }
 
-  .pagination{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+/* ENUMERACIÓN PAGINAS*/
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FADE DROPDOWN MENU */
+.show-on-hover .dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.show-on-hover:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* CARRITO CARDS */
+.container-comprarProductos {
+  margin: 60px 180px;
+}
+.btn-group .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
