@@ -50,7 +50,7 @@
 
 /* INICIO SESIÓN */
 .container-perfil{
-  margin-top: 60px;
+  margin-top: 50px;
 }
   .form-container {
     height: 520px;
@@ -60,7 +60,7 @@
     border: 1px solid #8f85c4;
   }
   .form-title {
-    margin-bottom: 65px;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 45px;
     font-weight: bolder;
